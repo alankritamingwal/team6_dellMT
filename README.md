@@ -2,7 +2,7 @@ Quick Start
 ⚙️ Install
 Our repo mainly constructed based on FastChat. Please follow the install instructions. Or you can install from source by
 
-git clone https://github.com/EmoCareAI/ChatPsychiatrist.git
+git clone https://github.com/alankritamingwal/team6_dellMT
 cd ChatPsychiatrist
 pip3 install -r requirements.txt
 ⏬ Model Download
