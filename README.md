@@ -93,7 +93,7 @@ This project has referred the following open-source projects. We would like to e
 * Facebook LLaMA: https://github.com/facebookresearch/llama
 
 # Citation
-
+```bash
 @misc{liu2023chatcounselor,
       title={ChatCounselor: A Large Language Models for Mental Health Support}, 
       author={June M. Liu and Donghao Li and He Cao and Tianhe Ren and Zeyi Liao and Jiamin Wu},
