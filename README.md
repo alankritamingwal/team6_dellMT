@@ -14,15 +14,7 @@ cd ChatPsychiatrist
 pip3 install -r requirements.txt
 ```
 
-## ⏬ Model Download
-We provide the weights hold on [Huggingface](https://huggingface.co/EmoCareAI/ChatPsychiatrist). You can download the model weights using [Huggingface Client Library](https://huggingface.co/docs/hub/models-downloading#using-the-hugging-face-client-library). Or use the following wget script:
-```bash
-mkdir -P PATH_TO_WEIGHTS_DIR && cd PATH_TO_WEIGHTS_DIR
-user='EmoCareAI'
-repo='ChatPsychiatrist'
-curl "https://huggingface.co/${user}/${repo}/tree/main" | grep -o 'href="[^"]*"' | cut -d'"' -f2 | grep "^/${user}/${repo}/blob/main/" | sed "s|^|https://huggingface.co|; s|/blob/|/resolve/|g" > files.txt && wget -nc -i files.txt && rm files.txt
-cd ..
-```
+
 
 
 ## 🚀 Inference
