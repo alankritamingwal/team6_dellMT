@@ -100,9 +100,6 @@ This project has referred the following open-source projects. We would like to e
     author={EmoCareAI},
     title={ChatPsychiatrist},
     year={2023},
-    publisher={GitHub},
-    journal={GitHub repository},
-    howpublished={\url{https://github.com/EmoCareAI/ChatPsychiatrist}},
 }
 
 @misc{zheng2023judging,
