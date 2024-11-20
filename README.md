@@ -5,15 +5,7 @@ This repo open-sources the Instruct-tuned LLaMA-7B model that has been fine-tune
 -  Psych8k dataset can be accessed through [huggingface](https://huggingface.co/datasets/EmoCareAI/Psych8k)
 
 
-# Quick Start
-## ⚙️ Install
-To use this model  you should have good ram more than 14 GB with GPU or you can simply run this in VM with same compatibility .
-Our repo mainly constructed based on [FastChat](https://github.com/lm-sys/FastChat/tree/main). Please follow the [install instructions](https://github.com/lm-sys/FastChat/tree/main). Or you can install from source by
-```bash
-git clone https://github.com/EmoCareAI/ChatPsychiatrist.git
-cd ChatPsychiatrist
-pip3 install -r requirements.txt
-```
+
 
 
 
